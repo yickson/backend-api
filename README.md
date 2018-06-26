@@ -1,27 +1,18 @@
-DBKM Daily Backend Manager
+Backend de administración de usuarios
 ====================
 
 Backend para aplicaciones web con KumbiaPHP con la elegancia de Bootstrap de Twitter.
 
 Con el DBKM podrás gestionar de manera rápida y segura los usuarios, perfiles, recursos, menús, y mucho más!.
-
-![image](http://soyprogramador.liz.mx/wp-content/uploads/2013/01/image5.png)
-
-`Demo <http://dbkm.dailyscript.com.co>`_
 -------------------
 
 Usuario: admin
 
 Pass: 123456
 
-Documentación
--------------------
-
-`Guía de inicio rápido <doc/index.rst>`_
-
 Instalación
 -------------------
-Para instalar el DBKM simplemente lo descargas, creas una base de datos e importas el archivo backup-1.sql.gz ubicado en la carpeta "app/temp/backup", editas el databases.ini y databases.org.ini con los parámetros de conexión.
+Para instalar el DBKM simplemente lo descargas, creas una base de datos e importas el archivo backup-1.sql ubicado en la carpeta "BaseDatos", editas el databases.ini y databases.org.ini con los parámetros de conexión.
 
 Usuario: admin
 
@@ -29,7 +20,7 @@ Pass: 123456
 
 Perfiles
 -------------------
-La gestión de perfiles permite administrar los direfentes roles de los usuarios que acceden al sistema.
+La gestión de perfiles permite administrar los diferentes roles de los usuarios que acceden al sistema, debes definir diferentes tipos de perfiles para distintos tipos de usuarios, ya que el perfil es quien se enlaza con los recursos de la aplicación dejando el acceso o no al usuario que le definamos dicho perfil.
 
 Recursos
 -------------------
@@ -42,10 +33,6 @@ Los privilegios son los recursos que puede acceder cada perfil creado, brindando
 Menús
 -------------------
 La administración de menús permite gestionar los diferentes menús para que los usuarios accedan a los recursos.  Por ahora cada menú puede tener un submenú
-
-Empresa
--------------------
-Permite la administración de los datos básicos de la empresa
 
 Sucursales
 -------------------
@@ -74,4 +61,3 @@ Permite optimizar, vaciar el cache, desfragmentar y reparar (si es posible) las 
 Archivos de configuración
 -------------------
 Permite editar los diferentes archivos de configuración del sistema ubicados en la carpeta "config" de la aplicación
-
